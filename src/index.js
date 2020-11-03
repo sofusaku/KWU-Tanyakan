@@ -8,7 +8,7 @@ import "./main.css";
 
 const DebuggingOutlines = createGlobalStyle`
   * {
-    outline: 1px solid rgb(255 0 0 / 0.2);
+    outline: 1px solid rgb(255 0 0 / 0.5);
   }
 `;
 
