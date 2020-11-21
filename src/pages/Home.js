@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import Header from "../components/header"; // Temporary while under construction
+
 const HeroSection = styled.section`
     width: 100%;
     height: 80vh;
@@ -62,6 +64,7 @@ const Hero = () => (
 
 const HomePage = props => (
     <React.Fragment>
+        <Header /> {/* Temporary while still under construction; Will be moved to inside App.js instead */}
         <Hero />
     </React.Fragment>
 )
