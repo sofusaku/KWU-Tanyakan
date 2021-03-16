@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 
-// import Header from "./components/header";
-
 // Pages
 import UCPage from "./pages/under-construction";
 import HomePage from "./pages/Home";
